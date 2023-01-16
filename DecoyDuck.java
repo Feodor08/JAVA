@@ -1,6 +1,7 @@
 public class DecoyDuck extends Duck {
-    public void fly(){
-        System.out.println("I don't fly :C");
+
+    public DecoyDuck(){
+        FlyBehaivor = new FlyNoWay();
     }
     public void quack(){
         System.out.println(" ");

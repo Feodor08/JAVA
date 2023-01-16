@@ -1,5 +1,10 @@
 public class RedheadDuck extends Duck {
-    public void display() {
+
+    public RedheadDuck() {
+        flyBehaivor = new FlywithWings();
+    }
+
+    public void dispaly() {
         System.out.println("I Redhead Duck");
     }
 }
