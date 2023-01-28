@@ -1,0 +1,3 @@
+class CocaColaWater extends AbctractWater
+{
+}
