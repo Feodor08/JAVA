@@ -1,33 +1,34 @@
-public class MenuItem {
-	String name;
-	String description;
-	boolean vegeterian;
-	double price;
+public class MenuItem
+{
+    String name;
+    String description;
+    boolean vegetarian;
+    double price;
 
-	public MenuItem(String name,
-	String description,
-	boolean vegeterian,
-	double price)
-	{
-		this.name = name;
-		this.description = description;
-		this.vegeterian = vegeterian;
-		this.price = price;
-	}
+    public MenuItem (String name,String description,boolean vegetarian,double price){
+        this.name = name;
+        this.description = description;
+        this.vegetarian = vegetarian;
+        this.price = price;
+    }
 
-	public String getDescription() {
-		return description;
-	}
+    public String getName()
+    {
+        return name;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getDescription()
+    {
+        return description;
+    }
 
-	public String getVegeterian() {
-		return vegeterian;
-	}
+    public double getPrice()
+    {
+        return price;
+    }
 
-	public String getPrice() {
-		return price;
-	}
+    public boolean isVegetarian()
+    {
+        return vegetarian;
+    }
 }
